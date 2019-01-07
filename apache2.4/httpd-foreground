@@ -19,6 +19,8 @@ include_conf ()
 		cp "$file" /usr/local/apache2/conf/custom
 	fi
 }
+include_conf "/var/www/.docksal/etc/apache/httpd-vhost-overrides.http.conf"
+include_conf "/var/www/.docksal/etc/apache/httpd-vhost-overrides.https.conf"
 include_conf "/var/www/.docksal/etc/apache/httpd-vhost-overrides.conf"
 include_conf "/var/www/.docksal/etc/apache/httpd-vhosts.conf"
 
