@@ -42,7 +42,7 @@ Example with Docker Compose
 
 Configuration overrides can be added to a Docksal project codebase.
 
-Use `.docksal/etc/apache/httpd-vhost-overrides.conf` to override the default virtual host configuration:
+Use `.docksal/etc/apache/httpd-vhost-overrides[.http|.https].conf` to override the default virtual host configuration:
 
 ```apacheconfig
 DirectoryIndex index2.html
